@@ -1,0 +1,47 @@
+let cor;
+
+let circuloX;
+
+let circuloY;
+
+function setup() {
+
+createCanvas(400, 400);
+
+background("white");
+
+cor = ["blue", "yellow", "orange"];
+
+circuloX = [100, 200, 300];
+
+circuloY = [100, 200, 300];
+
+}
+
+function draw()
+function setup() {
+
+createCanvas(200, 200);
+
+background("white");
+
+}
+
+function draw() {
+
+stroke("red");
+
+line(50, 100, 150, 100);
+
+}
+ {
+
+for(let contador in circuloX){
+
+fill(cor[contador]);
+
+circle(circuloX[contador], circuloY[contador], 50);
+
+}
+
+}
